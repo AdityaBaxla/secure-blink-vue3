@@ -6,7 +6,7 @@ import NavbarHomeTop from '../components/NavbarHomeTop.vue'
   <NavbarHomeTop />
   <main>
     <div id="screen-1">
-      <div></div>
+      <div id="background"></div>
     </div>
     <div id="screen1-hero-text"></div>
     <div id="screen1-sub-text"></div>
@@ -39,10 +39,142 @@ import NavbarHomeTop from '../components/NavbarHomeTop.vue'
     <div id="s3-point3">conse ctetur adipi scing elit.</div>
     <div id="s3-checkmark4"></div>
     <div id="s3-point4">Lorem ipsum dolor sit amet, conse ctetur</div>
+    <div id="services-logo"></div>
+    <div id="s3-left-text">OUR SERVICES</div>
+    <div id="s3-left-subtext">Transforming your ideas into Reality</div>
+    <div
+      id="s3-left-bubble1"
+      class="font-pop flex items-center justify-center h-full"
+      style="color: #0e77ff; font: 600 20px/50px"
+    >
+      Web Development
+    </div>
+    <div
+      id="s3-left-bubble2"
+      class="font-pop flex items-center justify-center h-full"
+      style="color: #0e77ff; font: 600 20px/50px"
+    >
+      Mobile Development
+    </div>
+    <div
+      id="s3-left-bubble3"
+      class="font-pop flex items-center justify-center h-full"
+      style="color: #ffffff; font: 600 20px/50px"
+    >
+      UI/UX Designing
+    </div>
+    <div
+      id="s3-left-bubble4"
+      class="font-pop flex items-center justify-center h-full"
+      style="color: #0e77ff; font: 600 20px/50px"
+    >
+      Branding
+    </div>
+    <div
+      id="s3-left-bubble5"
+      class="font-pop flex items-center justify-center h-full"
+      style="color: #0e77ff; font: 600 20px/50px"
+    >
+      Cloud Technology
+    </div>
+
+    <div id="s-4-topleft"></div>
   </main>
 </template>
 
 <style scoped>
+#s-4-topleft {
+  top: 3564px;
+  left: -137.46983337402344px;
+  width: 720px;
+  height: 564px;
+  /* UI Properties */
+  background: transparent url('../assets/img/Group 35700.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s3-left-bubble5 {
+  top: 3271px;
+  left: 280px;
+  width: 244px;
+  height: 61px;
+  /* UI Properties */
+  background: #16b2ff17 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+#s3-left-bubble4 {
+  top: 3191px;
+  left: 524px;
+  width: 160px;
+  height: 61px;
+  /* UI Properties */
+  background: #16b2ff17 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+#s3-left-bubble3 {
+  top: 3191px;
+  left: 280px;
+  width: 221px;
+  height: 61px;
+  /* UI Properties */
+  background: #0e77ff 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+#s3-left-bubble2 {
+  top: 3111px;
+  left: 555px;
+  width: 257px;
+  height: 61px;
+  /* UI Properties */
+  background: #16b2ff17 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+#s3-left-bubble1 {
+  top: 3111px;
+  left: 280px;
+  width: 239px;
+  height: 61px;
+  /* UI Properties */
+  background: #16b2ff17 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+#s3-left-subtext {
+  top: 2970px;
+  left: 280px;
+  width: 500px;
+  height: 156px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 40px/50px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#services-logo {
+  top: 2918px;
+  left: 280px;
+  width: 38px;
+  height: 47px;
+  /* UI Properties */
+  background: transparent url('../assets/img/Group 35624.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s3-left-text {
+  top: 2924px;
+  left: 325px;
+  width: 176px;
+  height: 35px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 25px/50px Poppins;
+  letter-spacing: 0px;
+  color: #0e77ff;
+  opacity: 1;
+}
 #s3-checkmark4 {
   top: 3290px;
   left: 1079px;
@@ -278,6 +410,16 @@ import NavbarHomeTop from '../components/NavbarHomeTop.vue'
   background: transparent
     url('../assets/img/Our products are fully custom-made, built with the latest technologies and cloud-architectures..png')
     0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#background {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 6444px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 </style>
