@@ -23,11 +23,159 @@ import NavbarHomeTop from '../components/NavbarHomeTop.vue'
       congue. Quisque blandit dui Pellentesque habitant morbi tristique senectus et netus et
       malesuada fames ac turpis egestas. In convallis porta mauris non aliquam.
     </div>
+    <div id="screen3-main"></div>
     <div id="screen3-right"></div>
+    <div id="s3-logo"></div>
+    <div id="s3-heading">UI/UX Designing</div>
+    <div id="s3-subtext">
+      Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam ex odio, is the turpis
+      accu msan congue euisque blandit dui Pelle ntesque habitant.
+    </div>
+    <div id="s3-checkmark1"></div>
+    <div id="s3-point1">Lorem ipsum dolor sit amet, conse ctetur adipi scing elit.</div>
+    <div id="s3-checkmark2"></div>
+    <div id="s3-point2">Lorem ipsum dolor sit amet,</div>
+    <div id="s3-checkmark3"></div>
+    <div id="s3-point3">conse ctetur adipi scing elit.</div>
+    <div id="s3-checkmark4"></div>
+    <div id="s3-point4">Lorem ipsum dolor sit amet, conse ctetur</div>
   </main>
 </template>
 
 <style scoped>
+#s3-checkmark4 {
+  top: 3290px;
+  left: 1079px;
+  width: 41px;
+  height: 41px;
+  /* UI Properties */
+  background: #4bffa526 url('../assets/img/Group 35604.svg') 0% 0% no-repeat padding-box;
+  border-radius: 9px;
+  opacity: 1;
+}
+#s3-point4 {
+  top: 3299px;
+  left: 1134px;
+  width: 331px;
+  height: 23px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#s3-checkmark3 {
+  top: 3232px;
+  left: 1079px;
+  width: 41px;
+  height: 41px;
+  /* UI Properties */
+  background: #4bffa526 url('../assets/img/Group 35604.svg') 0% 0% no-repeat padding-box;
+  border-radius: 9px;
+  opacity: 1;
+}
+#s3-point3 {
+  top: 3241px;
+  left: 1134px;
+  width: 232px;
+  height: 23px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#s3-checkmark2 {
+  top: 3174px;
+  left: 1079px;
+  width: 41px;
+  height: 41px;
+  background: #4bffa526 url('../assets/img/Group 35604.svg') 0% 0% no-repeat padding-box;
+  border-radius: 9px;
+  opacity: 1;
+}
+#s3-point2 {
+  /* Layout Properties */
+  top: 3183px;
+  left: 1134px;
+  width: 226px;
+  height: 23px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#s3-point1 {
+  /* Layout Properties */
+  top: 3125px;
+  left: 1134px;
+  width: 454px;
+  height: 23px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 16px/25px Poppins;
+  font-family: Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#s3-checkmark1 {
+  top: 3116px;
+  left: 1079px;
+  width: 41px;
+  height: 41px;
+  /* UI Properties */
+  background: transparent url('../assets/img/Group 35604.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s3-logo {
+  top: 2857px;
+  left: 1079px;
+  width: 97px;
+  height: 97px;
+  /* UI Properties */
+  background: transparent url('../assets/img/Group 35621.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s3-subtext {
+  top: 2990px;
+  left: 1079px;
+  width: 560px;
+  height: 152px;
+  text-align: left;
+  font: normal normal normal 16px/30px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#s3-heading {
+  /* Layout Properties */
+  top: 2881px;
+  left: 1209px;
+  width: 361px;
+  height: 61px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 44px/110px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#screen3-main {
+  /* Layout Properties */
+  top: 2675px;
+  left: 0px;
+  width: 1920px;
+  height: 889px;
+  /* UI Properties */
+  background: #0e77ff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 0.02;
+}
 #screen3-right {
   top: 2675px;
   left: 1418px;
