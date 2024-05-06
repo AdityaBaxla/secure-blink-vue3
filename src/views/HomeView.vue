@@ -1,0 +1,135 @@
+<script setup lang="ts">
+import NavbarHomeTop from '../components/NavbarHomeTop.vue'
+</script>
+
+<template>
+  <NavbarHomeTop />
+  <main>
+    <div id="screen-1">
+      <div></div>
+    </div>
+    <div id="screen1-hero-text"></div>
+    <div id="screen1-sub-text"></div>
+    <div id="screen2-right"></div>
+    <div id="screen2-left"></div>
+    <div id="screen2-about">ABOUT US</div>
+    <div id="screen2-bot-right"></div>
+    <div id="screen2-subtext1">
+      Our products are fully custom-made, built with the latest technologies and
+      cloud-architectures.
+    </div>
+    <div id="screen2-subtext2">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex odio, turpis accumsan
+      congue. Quisque blandit dui Pellentesque habitant morbi tristique senectus et netus et
+      malesuada fames ac turpis egestas. In convallis porta mauris non aliquam.
+    </div>
+    <div id="screen3-right"></div>
+  </main>
+</template>
+
+<style scoped>
+#screen3-right {
+  top: 2675px;
+  left: 1418px;
+  width: 502px;
+  height: 889px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  background: #0e77ff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#screen2-subtext2 {
+  top: 1834px;
+  left: 1080px;
+  width: 585px;
+  height: 166px;
+  text-align: left;
+  font: normal normal 300 18px/32px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+#screen2-subtext1 {
+  top: 1741px;
+  left: 1080px;
+  width: 585px;
+  height: 65px;
+  text-align: left;
+  font: normal normal normal 22px/32px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+#screen2-bot-right {
+  /* Layout Properties */
+  top: 2000px;
+  left: 1578px;
+  width: 560px;
+  height: 581px;
+  transform: matrix(-0.66, 0.75, -0.75, -0.66, 0, 0);
+  /* UI Properties */
+  background: transparent url('../assets/img/Group 35650.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#screen2-about {
+  top: 1600px;
+  left: 1123px;
+  width: 124px;
+  height: 35px;
+  text-align: left;
+  font: normal normal 600 25px/50px Poppins;
+  letter-spacing: 0px;
+  color: #0e77ff;
+  opacity: 1;
+}
+#screen2-left {
+  top: 1176px;
+  left: -670.7056884765625px;
+  width: 1652px;
+  height: 1316px;
+  background: transparent url('../assets/img/Group 35699.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#screen2-right {
+  top: 1020px;
+  left: 1397px;
+  width: 718px;
+  height: 720px;
+  transform: matrix(-0.72, 0.69, -0.69, -0.72, 0, 0);
+  background: transparent url('../assets/img/Group 35698.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#screen-1 {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: transparent url('../assets/img/Mask Group 4.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#screen1-hero-text {
+  top: 280px;
+  left: 226px;
+  width: 707px;
+  height: 197px;
+
+  background: transparent
+    url('../assets/img/Lorem Ipsum is simply dummy text of the printing and typesetting..svg') 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+
+#screen1-sub-text {
+  top: 526px;
+  left: 225px;
+  width: 735px;
+  height: 75px;
+  background: transparent
+    url('../assets/img/Our products are fully custom-made, built with the latest technologies and cloud-architectures..png')
+    0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+</style>
