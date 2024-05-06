@@ -2,6 +2,7 @@
 import Vue from 'vue'
 import { defineComponent } from 'vue'
 import NavbarHomeTop from '../components/NavbarHomeTop.vue'
+import { useRoute, useRouter } from 'vue-router'
 </script>
 
 <template>
@@ -30,19 +31,49 @@ import NavbarHomeTop from '../components/NavbarHomeTop.vue'
 </template>
 
 <script lang="ts">
+const endpoint = 'https://formsubmit.co/rishab.boomer@gmail.com'
+
 export default defineComponent({
   data() {
     return {
       email: '',
-      password: ''
+      password: '',
+      isValidEmail: true,
+      isValidPassword: true,
+      router: useRouter()
     }
   },
   methods: {
     onLogin() {
-      console.log('login hit')
-      this.email = ''
-      this.password = ''
-      return 1
+      // Frontend validation logic
+      if (!this.email.includes('@') || !this.email.includes('.')) {
+        this.isValidEmail = false
+        alert('enter valid email')
+      } else {
+        this.isValidEmail = true
+      }
+
+      if (this.password.length < 6) {
+        this.isValidPassword = false
+        alert('password length more than 6 characters')
+      } else {
+        this.isValidPassword = true
+      }
+
+      // If form is valid, proceed with login
+      if (this.isValidEmail && this.isValidPassword) {
+        console.log('login hit')
+
+        this.email = ''
+        this.password = ''
+        // Perform login operation
+        this.router.push('/dashboard')
+      }
+    }
+  },
+  computed: {
+    isValidForm() {
+      return this.isValidEmail && this.isValidPassword
     }
   }
 })
