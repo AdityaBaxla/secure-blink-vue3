@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import NavbarHomeTop from '../components/NavbarHomeTop.vue'
 </script>
 
@@ -78,12 +78,358 @@ import NavbarHomeTop from '../components/NavbarHomeTop.vue'
       Cloud Technology
     </div>
 
-    <div id="s-4-topleft"></div>
+    <div id="screen4">
+      <div id="s4-topleft"></div>
+      <div id="s4-top-text">Core Technologies</div>
+      <div id="s4-subtext">
+        Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam ex odio, is the turpis
+        accu msan congue euisque blandit dui Pelle ntesque habitant.
+      </div>
+      <div id="s4-center-pill" class="flex justify-between">
+        <div>Design</div>
+        <div class="s4-vertical-seperator"></div>
+        <div>Development</div>
+        <div class="s4-vertical-seperator"></div>
+        <div>Marketing</div>
+      </div>
+      <div id="s4-icon-grid">
+        <div id="s4-icon-container1"></div>
+        <div id="s4-icon-container2"></div>
+        <div id="s4-icon-container3"></div>
+        <div id="s4-icon-container4"></div>
+        <div id="s4-icon-container5"></div>
+        <div id="s4-icon-container6"></div>
+        <div id="s4-icon-container7"></div>
+        <div id="s4-icon-container8"></div>
+        <div id="s4-icon-container9"></div>
+        <div id="s4-icon-container10"></div>
+        <div id="s4-icon-container11"></div>
+        <div id="s4-icon-container12"></div>
+        <div id="s4-icon-container13"></div>
+        <div id="s4-icon1"></div>
+        <div id="s4-icon2"></div>
+        <div id="s4-icon3"></div>
+        <div id="s4-icon4"></div>
+        <div id="s4-icon5"></div>
+        <div id="s4-icon6"></div>
+        <div id="s4-icon7"></div>
+        <div id="s4-icon8"></div>
+        <div id="s4-icon9"></div>
+        <div id="s4-icon10"></div>
+        <div id="s4-icon11"></div>
+        <div id="s4-icon12"></div>
+        <div id="s4-icon13"></div>
+      </div>
+    </div>
   </main>
 </template>
 
 <style scoped>
-#s-4-topleft {
+#s4-icon1 {
+  top: 4450px;
+  left: 345px;
+  width: 92px;
+  height: 82px;
+  /* UI Properties */
+  background: transparent url('../assets/img/React-icon.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s4-icon2 {
+  top: 4474px;
+  left: 538px;
+  width: 88px;
+  height: 53px;
+  /* UI Properties */
+  background: transparent url('../assets/img/Amazon_Web_Services_Logo.svg') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+#s4-icon3 {
+  top: 4446px;
+  left: 721px;
+  width: 98px;
+  height: 98px;
+  /* UI Properties */
+  background: transparent url('../assets/img/Mask Group 1.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s4-icon4 {
+  top: 4458px;
+  left: 924px;
+  width: 77px;
+  height: 73px;
+  background: transparent url('../assets/img/redux-logo.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s4-icon5 {
+  top: 4460px;
+  left: 1113px;
+  width: 71px;
+  height: 71px;
+  /* UI Properties */
+  background: transparent url('../assets/img/Path 37520.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s4-icon6 {
+  top: 4458px;
+  left: 1302px;
+  width: 74px;
+  height: 74px;
+  /* UI Properties */
+  background: transparent url('../assets/img/g10.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: #0e77ff;
+}
+#s4-icon7 {
+  top: 4474px;
+  left: 1488px;
+  width: 88px;
+  height: 53px;
+  /* UI Properties */
+  background: transparent url('../assets/img/Amazon_Web_Services_Logo.svg') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  color: #0e77ff;
+}
+#s4-icon8 {
+  top: 4649px;
+  left: 448px;
+  width: 74px;
+  height: 74px;
+  /* UI Properties */
+  background: transparent url('../assets/img/g10.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s4-icon9 {
+  top: 4649px;
+  left: 639px;
+  width: 77px;
+  height: 73px;
+  /* UI Properties */
+  background: transparent url('../assets/img/redux-logo.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s4-icon10 {
+  top: 4641px;
+  left: 815px;
+  width: 106px;
+  height: 105px;
+  /* UI Properties */
+  background: transparent url('../assets/img/Mask Group 3.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s4-icon11 {
+  top: 4641px;
+  left: 1020px;
+  width: 59px;
+  height: 81px;
+  /* UI Properties */
+  background: transparent url('../assets/img/_Path_3.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s4-icon12 {
+  top: 4643px;
+  left: 1198px;
+  width: 92px;
+  height: 82px;
+  background: transparent url('../assets/img/React-icon.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s4-icon13 {
+  top: 4652px;
+  left: 1400px;
+  width: 71px;
+  height: 71px;
+  background: transparent url('../assets/img/Path 37519.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s4-icon-container1 {
+  top: 4425px;
+  left: 321px;
+  width: 140px;
+  height: 140px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0e77ff;
+  border-radius: 9px;
+  opacity: 1;
+}
+#s4-icon-container2 {
+  top: 4425px;
+  left: 511px;
+  width: 140px;
+  height: 140px;
+  /* UI Properties */
+  background: #0e77ff 0% 0% no-repeat padding-box;
+  border: 1px solid #0e77ff;
+  border-radius: 9px;
+  opacity: 1;
+}
+#s4-icon-container3 {
+  top: 4425px;
+  left: 701px;
+  width: 140px;
+  height: 140px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0e77ff;
+  border-radius: 9px;
+  opacity: 1;
+}
+#s4-icon-container4 {
+  top: 4425px;
+  left: 891px;
+  width: 140px;
+  height: 140px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0e77ff;
+  border-radius: 9px;
+  opacity: 1;
+}
+#s4-icon-container5 {
+  top: 4425px;
+  left: 1080px;
+  width: 140px;
+  height: 140px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0e77ff;
+  border-radius: 9px;
+  opacity: 1;
+}
+#s4-icon-container6 {
+  top: 4425px;
+  left: 1270px;
+  width: 140px;
+  height: 140px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0e77ff;
+  border-radius: 9px;
+  opacity: 1;
+}
+#s4-icon-container7 {
+  top: 4425px;
+  left: 1460px;
+  width: 140px;
+  height: 140px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0e77ff;
+  border-radius: 9px;
+  opacity: 1;
+}
+#s4-icon-container8 {
+  top: 4616px;
+  left: 417px;
+  width: 140px;
+  height: 140px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0e77ff;
+  border-radius: 9px;
+  opacity: 1;
+}
+#s4-icon-container9 {
+  top: 4616px;
+  left: 607px;
+  width: 140px;
+  height: 140px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0e77ff;
+  border-radius: 9px;
+  opacity: 1;
+}
+#s4-icon-container10 {
+  top: 4616px;
+  left: 797px;
+  width: 140px;
+  height: 140px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0e77ff;
+  border-radius: 9px;
+  opacity: 1;
+}
+#s4-icon-container11 {
+  top: 4616px;
+  left: 987px;
+  width: 140px;
+  height: 140px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0e77ff;
+  border-radius: 9px;
+  opacity: 1;
+}
+#s4-icon-container12 {
+  top: 4616px;
+  left: 1176px;
+  width: 140px;
+  height: 140px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0e77ff;
+  border-radius: 9px;
+  opacity: 1;
+}
+#s4-icon-container13 {
+  top: 4616px;
+  left: 1366px;
+  width: 140px;
+  height: 140px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0e77ff;
+  border-radius: 9px;
+  opacity: 1;
+}
+
+.s4-vertical-seperator {
+  width: 0px;
+  height: 45px;
+  border: 1px solid #000000;
+  opacity: 1;
+}
+#s4-center-pill {
+  top: 4208px;
+  left: 613px;
+  width: 694px;
+  height: 81px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 40px 60px #0e77ff26;
+  border-radius: 72px;
+  opacity: 1;
+}
+#s4-subtext {
+  top: 4078px;
+  left: 520px;
+  width: 881px;
+  height: 94px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 300 18px/32px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#s4-top-text {
+  top: 3982px;
+  left: 771px;
+  width: 390px;
+  height: 56px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 40px/50px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+/* #screen4 {
+  top: 3781px;
+  left: -8px;
+  width: 1928px;
+  height: 1197px;
+  background: #0e77ff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 0.02;
+} */
+#s3-topleft {
   top: 3564px;
   left: -137.46983337402344px;
   width: 720px;
@@ -413,13 +759,12 @@ import NavbarHomeTop from '../components/NavbarHomeTop.vue'
   opacity: 1;
 }
 
-#background {
+/* #background {
   top: 0px;
   left: 0px;
   width: 1920px;
   height: 6444px;
-  /* UI Properties */
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
-}
+} */
 </style>
