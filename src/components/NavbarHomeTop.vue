@@ -9,13 +9,13 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/" class="text-3xl text-white font-semibold">Home</RouterLink>
     </div>
 
-    <RouterLink to="/login" class="sitems-center nav-right flex flex-row gap-4 text-2xl text-white">
+    <RouterLink to="/login" class="items-center nav-right flex flex-row gap-4 text-2xl text-white">
       <span>About</span>
       <span>Services</span>
       <span>Case Studies</span>
       <span>Testimonials</span>
       <span>Contact</span>
-      <div class="rounded-md bg-white text-blue-600 p-2 px-4">Login</div>
+      <div class="rounded-md bg-white text-blue-600 p-2 px-6">Login</div>
     </RouterLink>
   </nav>
 </template>
