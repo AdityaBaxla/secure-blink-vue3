@@ -24,7 +24,13 @@ import { useRoute, useRouter } from 'vue-router'
       </div>
       <input v-model="password" type="password" id="login-password-input" class="input-field" />
       <div class="flex justify-center">
-        <button @click="onLogin" id="login-button" class="">Login >></button>
+        <button v-if="!loggingIn" @click="onLogin" id="login-button" class="">Login >></button>
+        <div v-else class="lds-ellipsis">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </div>
   </div>
@@ -40,7 +46,8 @@ export default defineComponent({
       password: '',
       isValidEmail: true,
       isValidPassword: true,
-      router: useRouter()
+      router: useRouter(),
+      loggingIn: false
     }
   },
   methods: {
@@ -64,10 +71,19 @@ export default defineComponent({
       if (this.isValidEmail && this.isValidPassword) {
         console.log('login hit')
 
+        fetch(endpoint, {
+          method: 'POST',
+          body: JSON.stringify({ email: this.email, password: this.password })
+        })
+          .then(() => {
+            this.router.push('/dashboard')
+          })
+          .catch(() => {
+            alert('error login')
+          })
+        this.loggingIn = true
         this.email = ''
         this.password = ''
-        // Perform login operation
-        this.router.push('/dashboard')
       }
     }
   },
@@ -149,5 +165,65 @@ export default defineComponent({
   /* UI Properties */
   background: transparent url('../assets/img/Group 35699.svg') 0% 0% no-repeat padding-box;
   opacity: 1;
+}
+
+.lds-ellipsis,
+.lds-ellipsis div {
+  box-sizing: border-box;
+}
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 33.33333px;
+  width: 13.33333px;
+  height: 13.33333px;
+  border-radius: 50%;
+  background: #0e77ff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
 }
 </style>

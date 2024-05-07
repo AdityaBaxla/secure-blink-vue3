@@ -9,6 +9,12 @@
     }
   ],
   "compilerOptions": {
-    "typeRoots": ["./node_modules/@types"]
+    "typeRoots": ["./node_modules/@types"],
+
+    /* added after gpt, remove if  causing problem */
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    }
   }
 }

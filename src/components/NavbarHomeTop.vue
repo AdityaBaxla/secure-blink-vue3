@@ -1,5 +1,6 @@
-<script setup>
+<script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+import { defineComponent } from 'vue'
 </script>
 
 <template>
@@ -8,6 +9,8 @@ import { RouterLink, RouterView } from 'vue-router'
     <RouterLink to="/login">Login</RouterLink>
   </nav>
 </template>
+
+<script lang="ts"></script>
 
 <style scoped>
 .navbar {
