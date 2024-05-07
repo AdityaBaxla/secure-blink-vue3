@@ -13,7 +13,9 @@ import SendUsMessage from '../components/SendUsMessage.vue'
     <div id="screen1-sub-text"></div>
     <div id="screen2-right"></div>
     <div id="screen2-left"></div>
+    <div id="s2-about-icon"></div>
     <div id="screen2-about">ABOUT US</div>
+    <div id="s2-about-below">Great Digital Agency</div>
     <div id="screen2-bot-right"></div>
     <div id="screen2-subtext1">
       Our products are fully custom-made, built with the latest technologies and
@@ -86,12 +88,15 @@ import SendUsMessage from '../components/SendUsMessage.vue'
         Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam ex odio, is the turpis
         accu msan congue euisque blandit dui Pelle ntesque habitant.
       </div>
-      <div id="s4-center-pill" class="flex justify-between">
-        <div>Design</div>
-        <div class="s4-vertical-seperator"></div>
-        <div>Development</div>
-        <div class="s4-vertical-seperator"></div>
-        <div>Marketing</div>
+      <div
+        id="s4-center-pill"
+        class="flex flex-row gap-3 items-center justify-between px-20 text-2xl font-semibold"
+      >
+        <div class="relative">Design</div>
+        <div class="s4-vertical-seperator relative"></div>
+        <div class="relative">Development</div>
+        <div class="relative s4-vertical-seperator"></div>
+        <div class="relative">Marketing</div>
       </div>
       <div id="s4-icon-grid">
         <div id="s4-icon-container1"></div>
@@ -133,6 +138,29 @@ import SendUsMessage from '../components/SendUsMessage.vue'
 </template>
 
 <style scoped>
+#s2-about-icon {
+  top: 1594px;
+  left: 1079px;
+  width: 38px;
+  height: 47px;
+  /* UI Properties */
+  background: transparent url('../assets/img/Group 35624.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#s2-about-below {
+  top: 1643px;
+  left: 1079px;
+  width: 430px;
+  height: 56px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 40px/50px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
 #s5-form-container {
   top: 5173px;
   left: 892px;
@@ -143,6 +171,7 @@ import SendUsMessage from '../components/SendUsMessage.vue'
   box-shadow: 0px 40px 60px #0e77ff26;
   opacity: 1;
 }
+
 #s5-bg-image {
   top: 5327px;
   left: -0.00048828125px;
@@ -152,12 +181,13 @@ import SendUsMessage from '../components/SendUsMessage.vue'
   background: transparent url('../assets/img/Path 37456.svg') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
+
 #s5-main-image {
   top: 5406px;
   left: 22px;
   width: 874px;
   height: 589px;
-  /* UI Properties */
+
   background: transparent url('../assets/img/Group 35686.svg') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
