@@ -4,22 +4,33 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <nav class="navbar flex justify-between">
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/login">Login</RouterLink>
+  <nav class="navbar flex flex-row w-full justify-between items-center pr-20">
+    <div>
+      <RouterLink to="/">Home</RouterLink>
+    </div>
+
+    <RouterLink to="/login" class="flex flex-row gap-2 text-3xl">
+      <span>About</span>
+      <span>Services</span>
+      <span>Case Studies</span>
+      <span>Testimonials</span>
+      <span>Contact</span>
+      <span>Login</span>
+    </RouterLink>
   </nav>
 </template>
 
 <script lang="ts"></script>
 
 <style scoped>
+div {
+  position: relative;
+}
 .navbar {
   position: relative; /* Position the navbar relative to the viewport */
-  top: 0; /* Position the navbar at the top of the viewport */
-  left: 0; /* Position the navbar at the left of the viewport */
-  width: 100%; /* Make the navbar full width */
   z-index: 9999; /* Ensure the navbar is on top of everything */
+  width: 1920px;
   height: 53px;
-  background-color: white; /* Example background color */
+  background-color: transparent; /* Example background color */
 }
 </style>
