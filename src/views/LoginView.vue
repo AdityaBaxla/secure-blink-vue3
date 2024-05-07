@@ -3,7 +3,7 @@ import Vue from 'vue'
 import { defineComponent } from 'vue'
 import NavbarHomeTop from '../components/NavbarHomeTop.vue'
 import { useRoute, useRouter } from 'vue-router'
-import { useMyStore } from '../stores/myStore.ts'
+import { useMyStore } from '../stores/myStore'
 </script>
 
 <template>
