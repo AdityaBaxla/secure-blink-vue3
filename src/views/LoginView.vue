@@ -3,6 +3,7 @@ import Vue from 'vue'
 import { defineComponent } from 'vue'
 import NavbarHomeTop from '../components/NavbarHomeTop.vue'
 import { useRoute, useRouter } from 'vue-router'
+import { useMyStore } from '../stores/myStore.ts'
 </script>
 
 <template>
@@ -76,12 +77,15 @@ export default defineComponent({
           body: JSON.stringify({ email: this.email, password: this.password })
         })
           .then(() => {
+            useMyStore().setLogin(true)
             this.router.push('/dashboard')
           })
           .catch(() => {
             alert('error login')
           })
         this.loggingIn = true
+        const myStore = useMyStore()
+        console.log(myStore.isLoggedIn)
         this.email = ''
         this.password = ''
       }

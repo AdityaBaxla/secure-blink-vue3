@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import LoginView from '@/views/LoginView.vue'
-import DashboardView from '../views/DashboardView.vue'
+// import DashboardView from '../views/DashboardView.vue'
+import { useMyStore } from '../stores/myStore.ts'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -19,7 +20,8 @@ const router = createRouter({
     {
       path: '/dashboard',
       name: 'dashboard',
-      component: DashboardView
+      component: () => import('../views/DashboardView.vue'),
+      meta: { requiresAuth: true }
     }
     //{
     // path: '/about',
@@ -30,6 +32,17 @@ const router = createRouter({
     // component: () => import('../views/AboutView.vue')
     //}
   ]
+})
+
+router.beforeEach((to, from, next) => {
+  const store = useMyStore()
+  const isLoggedIn = store.isLoggedIn
+
+  if (to.meta.requiresAuth && !isLoggedIn) {
+    next('/')
+  } else {
+    next()
+  }
 })
 
 export default router

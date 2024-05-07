@@ -121,10 +121,63 @@ import NavbarHomeTop from '../components/NavbarHomeTop.vue'
         <div id="s4-icon13"></div>
       </div>
     </div>
+
+    <div id="screen5">
+      <div id="s5-top-left"></div>
+      <div id="s5-main-image"></div>
+      <div id="s5-bg-image"></div>
+      <div id="s5-form-container" class="grid grid-cols-1 justify-items-center">
+        <div id="s5-form-top" class="font-pop text-6xl">Send Us message</div>
+        <input
+          placeholder="wow"
+          class="border-none border-b border-gray-400 focus:border-blue-500 outline-none"
+        />
+        <input placeholder="wow" />
+        <input placeholder="wow" />
+      </div>
+    </div>
   </main>
 </template>
 
 <style scoped>
+#s5-form-container {
+  top: 5173px;
+  left: 892px;
+  width: 747px;
+  height: 836px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 40px 60px #0e77ff26;
+  opacity: 1;
+}
+#s5-bg-image {
+  top: 5327px;
+  left: -0.00048828125px;
+  width: 1920px;
+  height: 1120px;
+  /* UI Properties */
+  background: transparent url('../assets/img/Path 37456.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s5-main-image {
+  top: 5406px;
+  left: 22px;
+  width: 874px;
+  height: 589px;
+  /* UI Properties */
+  background: transparent url('../assets/img/Group 35686.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#s5-top-left {
+  top: 4978px;
+  left: 336px;
+  width: 183px;
+  height: 158px;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+  /* UI Properties */
+  background: transparent url('../assets/img/Path 37660.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
 #s4-icon1 {
   top: 4450px;
   left: 345px;
