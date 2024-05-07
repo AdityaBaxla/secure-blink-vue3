@@ -1,5 +1,6 @@
 <script setup>
 import NavbarHomeTop from '../components/NavbarHomeTop.vue'
+import SendUsMessage from '../components/SendUsMessage.vue'
 </script>
 
 <template>
@@ -126,15 +127,7 @@ import NavbarHomeTop from '../components/NavbarHomeTop.vue'
       <div id="s5-top-left"></div>
       <div id="s5-main-image"></div>
       <div id="s5-bg-image"></div>
-      <div id="s5-form-container" class="grid grid-cols-1 justify-items-center">
-        <div id="s5-form-top" class="font-pop text-6xl">Send Us message</div>
-        <input
-          placeholder="wow"
-          class="border-none border-b border-gray-400 focus:border-blue-500 outline-none"
-        />
-        <input placeholder="wow" />
-        <input placeholder="wow" />
-      </div>
+      <SendUsMessage />
     </div>
   </main>
 </template>
