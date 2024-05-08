@@ -13,15 +13,20 @@ import DashboardBalance from '@/components/DashboardBalance.vue'
       id="dashboard-main-content"
       class="flex flex-col col-span-7 xl:col-span-9 lg:col-span-9 sm:col-span-8 pl-20 pt-20 mr-10 gap-6"
     >
-      <div id="dashboard-top" class="flex flex-row justify-between h-[95px]">
+      <div id="dashboard-top" class="flex flex-wrap flex-row justify-between h-[95px] mb-5">
         <div>
           <div class="text-5xl font-inter text-slate-900">Dashboard</div>
-          <div class="font-inter text-slate-600">Welcome back, {{ name }}</div>
+          <div class="font-inter text-slate-400">Welcome back, {{ name }}</div>
         </div>
-        <div>
-          <button>+ Add Unit</button>
-          <img src="../assets/img/profile1.jpeg" alt="" class="h-12" />
-          <div>Andrew Jhonstons</div>
+        <div class="flex flew-row gap-4 items-center">
+          <button
+            class="bg-blue-600 text-white text-lg font-inter p-1 flex flex-row place-items-center rounded-lg px-5"
+          >
+            <div class="text-5xl text-slate-200 mb-2">+</div>
+            <div class="font-inter justify-center text-slate-200">Add Unit</div>
+          </button>
+          <img src="../assets/img/profile1.jpeg" alt="" class="h-16" />
+          <div class="font-inter text-slate-400">Andrew Jhonstons</div>
         </div>
       </div>
       <div id="dashboard-balances " class="flex flex-row justify-evenly flex-wrap">
