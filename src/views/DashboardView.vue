@@ -11,16 +11,16 @@ import DashboardBalance from '@/components/DashboardBalance.vue'
     <NavbarDashboardLeft class="col-span-3 xl:col-span-1 lg:col-span-1 sm:col-span-2" />
     <div
       id="dashboard-main-content"
-      class="flex flex-col col-span-7 xl:col-span-9 lg:col-span-9 sm:col-span-8 pl-20 pt-20 mr-10"
+      class="flex flex-col col-span-7 xl:col-span-9 lg:col-span-9 sm:col-span-8 pl-20 pt-20 mr-10 gap-6"
     >
-      <div id="dashboard-top" class="flex flex-row justify-between">
+      <div id="dashboard-top" class="flex flex-row justify-between h-[95px]">
         <div>
           <div class="text-5xl font-inter text-slate-900">Dashboard</div>
-          <div>Welcome back, {{ name }}</div>
+          <div class="font-inter text-slate-600">Welcome back, {{ name }}</div>
         </div>
         <div>
           <button>+ Add Unit</button>
-          <img src="../assets/img/profile1" alt="" />
+          <img src="../assets/img/profile1.jpeg" alt="" class="h-12" />
           <div>Andrew Jhonstons</div>
         </div>
       </div>
