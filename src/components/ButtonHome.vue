@@ -1,12 +1,11 @@
 <template>
-  <button id="button-main">{{ text }} <span id="button-icon"></span></button>
+  <button id="button-main">{{ text }} This a button <span id="button-icon"></span></button>
 </template>
 
 <script>
-const { defineComponent } = require('vue')
+import { defineComponent } from 'vue'
 
-defineComponent({
-  name: 'button-home',
+export default defineComponent({
   data() {
     return {
       text: 'Get Started'

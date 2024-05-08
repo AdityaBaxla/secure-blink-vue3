@@ -1,6 +1,7 @@
 <script setup>
 import NavbarHomeTop from '../components/NavbarHomeTop.vue'
 import SendUsMessage from '../components/SendUsMessage.vue'
+import ButtonHome from '../components/ButtonHome.vue'
 </script>
 
 <template>
@@ -134,10 +135,134 @@ import SendUsMessage from '../components/SendUsMessage.vue'
       <div id="s5-bg-image"></div>
       <SendUsMessage />
     </div>
+    <footer>
+      <div id="footer-left-text">
+        Lorem Finaldream rure dolor in reprehenderit in voluptate velit esse cillum dolore e uis
+        nostrud exercitation isi ut aliquip ex ea commodo consequat.
+      </div>
+      <div id="footer-social-icon1"></div>
+      <div id="footer-social-icon2"></div>
+      <div id="footer-social-icon3"></div>
+      <div id="footer-insta"></div>
+      <div>
+        <div id="footer-services">
+          <div class="footer-services-head left-[799px]">Our Services</div>
+          <div class="footer-services-bar left-[799px]"></div>
+          <div class="footer-services-text relative left-[799px]">Web Development</div>
+          <div class="footer-services-text relative left-[799px]">Moblie Developemnt</div>
+          <div class="footer-services-text relative left-[799px]">Cloud Technologies</div>
+          <div class="footer-services-text relative left-[799px]">UI/UX Designs</div>
+        </div>
+      </div>
+      <div>
+        <div id="footer-services">
+          <div class="footer-services-head left-[1079px]">Our Links</div>
+          <div class="footer-services-bar left-[1079px]"></div>
+          <div class="footer-services-text relative left-[1079px]">Terms & Condition</div>
+          <div class="footer-services-text relative left-[1079px]">Privacy Policy</div>
+          <div class="footer-services-text relative left-[1079px]">Imprint</div>
+          <div class="footer-services-text relative left-[1079px]">Legal</div>
+        </div>
+      </div>
+      <div>
+        <div id="footer-services">
+          <div class="footer-services-head left-[1387px]">Contact Us</div>
+          <div class="footer-services-bar left-[1387px]"></div>
+          <div class="footer-services-text relative left-[1386px]">
+            Al. Dummyodl 124/23 floor 123 Banswara Street, 02-577 India.
+          </div>
+          <div class="footer-services-text relative left-[1386px]">00 1800 245 453</div>
+          <div class="footer-services-text relative left-[1386px]">hello@inkyy.com</div>
+        </div>
+      </div>
+    </footer>
   </main>
 </template>
 
 <style scoped>
+.footer-services-text {
+  top: 6177px;
+  width: 240px;
+  height: auto;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 300 16px/40px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.footer-services-head {
+  top: 6088px;
+
+  width: 300px;
+  height: 28px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 20px/81px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.footer-services-bar {
+  top: 6158px;
+  width: 48px;
+  height: 4px;
+  /* UI Properties */
+  background: #21b3ff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#footer-social-icon1 {
+  top: 6276px;
+  left: 140px;
+  width: 37px;
+  height: 37px;
+  /* UI Properties */
+  background: transparent url('../assets/img/Group 34322.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#footer-social-icon2 {
+  top: 6276px;
+  left: 188px;
+  width: 37px;
+  height: 37px;
+  /* UI Properties */
+  background: transparent url('../assets/img/Group 34323.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#footer-social-icon3 {
+  top: 6276px;
+  left: 237px;
+  width: 37px;
+  height: 37px;
+  background: transparent url('../assets/img/twitter-circular-button.svg') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+#footer-insta {
+  top: 6285px;
+  left: 247px;
+  width: 18px;
+  height: 18px;
+  /* UI Properties */
+  background: transparent url('../assets/img/instagram.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#footer-left-text {
+  top: 6173px;
+  left: 140px;
+  width: 456px;
+  height: 90px;
+  text-align: left;
+  font: normal normal 300 16px/30px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
 #s2-about-icon {
   top: 1594px;
   left: 1079px;
