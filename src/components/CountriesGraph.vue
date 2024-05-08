@@ -1,5 +1,5 @@
 <template>
-  <div class="justify-center items-center">
+  <div class="container justify-center items-center">
     <div>Italy</div>
     <div>475</div>
     <img src="" alt="" />
@@ -9,5 +9,10 @@
 <style scoped>
 * {
   position: relative;
+}
+
+.container {
+  width: 161px;
+  height: 124px;
 }
 </style>

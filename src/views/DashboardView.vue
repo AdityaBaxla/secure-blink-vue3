@@ -1,6 +1,7 @@
 <script setup>
 import NavbarDashboardLeft from '@/components/NavbarDashboardLeft.vue'
 import CountriesGraph from '@/components/CountriesGraph.vue'
+import TeamMembers from '@/components/TeamMembers.vue'
 </script>
 
 <template>
@@ -25,10 +26,29 @@ import CountriesGraph from '@/components/CountriesGraph.vue'
         </div>
         <div class="border-[1px] w-0 border-solid border-slate-200 h-[91px]"></div>
       </div>
-      <div id="dashboard-prices" class="flex flex-row flex-wrap h-[226px]">
+      <div
+        id="dashboard-prices"
+        class="flex flex-row flex-wrap h-[226px] bg-white"
+        style="background-color: #ffffff; box-shadow: 0px 3px 26px #00000017"
+      >
+        <CountriesGraph />
+        <CountriesGraph />
+        <CountriesGraph />
+        <CountriesGraph />
         <CountriesGraph />
       </div>
-      <div id="dashboard-bottom">bottom row</div>
+      <div id="dashboard-bottom">
+        <div id="team-member" class="max-w-[718px]">
+          <div id="team-header"></div>
+          <div id="members" class="flex flex-col gap-4">
+            <TeamMembers />
+            <TeamMembers />
+            <TeamMembers />
+            <TeamMembers />
+          </div>
+        </div>
+        <div id="countries"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -48,5 +68,14 @@ export default defineComponent({
 <style scoped>
 * {
   position: relative;
+}
+
+/* #dashboard-prices {
+  box-shadow: 0px 3px 26px #00000017;
+  opacity: 1;
+} */
+
+#dashboard-main-content {
+  background: #fcfcfc 0% 0% no-repeat padding-box;
 }
 </style>
