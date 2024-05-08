@@ -223,7 +223,7 @@ import ButtonHome from '../components/ButtonHome.vue'
   opacity: 1;
 }
 #footer-social-icon2 {
-  top: 6276px;
+  top: 6276 px;
   left: 188px;
   width: 37px;
   height: 37px;
@@ -381,14 +381,14 @@ import ButtonHome from '../components/ButtonHome.vue'
   opacity: 1;
   color: #0e77ff;
 }
+
 #s4-icon7 {
-  top: 4474px;
-  left: 1488px;
-  width: 88px;
-  height: 53px;
+  top: 4458px;
+  left: 1302px;
+  width: 74px;
+  height: 74px;
   /* UI Properties */
-  background: transparent url('../assets/img/Amazon_Web_Services_Logo.svg') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('../assets/img/g10.svg') 0% 0% no-repeat padding-box;
   opacity: 1;
   color: #0e77ff;
 }
@@ -902,7 +902,7 @@ import ButtonHome from '../components/ButtonHome.vue'
 #screen2-about {
   top: 1600px;
   left: 1123px;
-  width: 124px;
+  width: 130px;
   height: 35px;
   text-align: left;
   font: normal normal 600 25px/50px Poppins;

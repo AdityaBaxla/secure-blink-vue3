@@ -2,7 +2,7 @@
 import Vue from 'vue'
 import { defineComponent } from 'vue'
 import NavbarHomeTop from '../components/NavbarHomeTop.vue'
-import { useRoute, useRouter } from 'vue-router'
+import { useRouter } from 'vue-router'
 import { useMyStore } from '../stores/myStore'
 import ButtonHome from '../components/ButtonHome.vue'
 import { setTextRange } from 'typescript'
