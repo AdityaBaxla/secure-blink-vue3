@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        pop: ['Poppins', 'sans']
+        pop: ['Poppins', 'sans'],
+        inter: ['Inter', 'sans']
       }
     }
   },
