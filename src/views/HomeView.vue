@@ -5,178 +5,178 @@ import ButtonHome from '../components/ButtonHome.vue'
 </script>
 
 <template>
-  <NavbarHomeTop />
-  <main>
-    <div id="screen-1">
-      <div id="background"></div>
-    </div>
-    <div id="screen1-hero-text"></div>
-    <div id="screen1-sub-text"></div>
-    <div id="screen2-right"></div>
-    <div id="screen2-left"></div>
-    <div id="s2-about-icon"></div>
-    <div id="screen2-about">ABOUT US</div>
-    <div id="s2-about-below">Great Digital Agency</div>
-    <div id="screen2-bot-right"></div>
-    <div id="screen2-subtext1">
-      Our products are fully custom-made, built with the latest technologies and
-      cloud-architectures.
-    </div>
-    <div id="screen2-subtext2">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex odio, turpis accumsan
-      congue. Quisque blandit dui Pellentesque habitant morbi tristique senectus et netus et
-      malesuada fames ac turpis egestas. In convallis porta mauris non aliquam.
-    </div>
-    <div id="screen3-main"></div>
-    <div id="screen3-right"></div>
-    <div id="s3-logo"></div>
-    <div id="s3-heading">UI/UX Designing</div>
-    <div id="s3-subtext">
-      Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam ex odio, is the turpis
-      accu msan congue euisque blandit dui Pelle ntesque habitant.
-    </div>
-    <div id="s3-checkmark1"></div>
-    <div id="s3-point1">Lorem ipsum dolor sit amet, conse ctetur adipi scing elit.</div>
-    <div id="s3-checkmark2"></div>
-    <div id="s3-point2">Lorem ipsum dolor sit amet,</div>
-    <div id="s3-checkmark3"></div>
-    <div id="s3-point3">conse ctetur adipi scing elit.</div>
-    <div id="s3-checkmark4"></div>
-    <div id="s3-point4">Lorem ipsum dolor sit amet, conse ctetur</div>
-    <div id="services-logo"></div>
-    <div id="s3-left-text">OUR SERVICES</div>
-    <div id="s3-left-subtext">Transforming your ideas into Reality</div>
-    <div
-      id="s3-left-bubble1"
-      class="font-pop flex items-center justify-center h-full"
-      style="color: #0e77ff; font: 600 20px/50px"
-    >
-      Web Development
-    </div>
-    <div
-      id="s3-left-bubble2"
-      class="font-pop flex items-center justify-center h-full"
-      style="color: #0e77ff; font: 600 20px/50px"
-    >
-      Mobile Development
-    </div>
-    <div
-      id="s3-left-bubble3"
-      class="font-pop flex items-center justify-center h-full"
-      style="color: #ffffff; font: 600 20px/50px"
-    >
-      UI/UX Designing
-    </div>
-    <div
-      id="s3-left-bubble4"
-      class="font-pop flex items-center justify-center h-full"
-      style="color: #0e77ff; font: 600 20px/50px"
-    >
-      Branding
-    </div>
-    <div
-      id="s3-left-bubble5"
-      class="font-pop flex items-center justify-center h-full"
-      style="color: #0e77ff; font: 600 20px/50px"
-    >
-      Cloud Technology
-    </div>
-
-    <div id="screen4">
-      <div id="s4-topleft"></div>
-      <div id="s4-top-text">Core Technologies</div>
-      <div id="s4-subtext">
+  <div id="full-page" class="min-h-[6444px] w-[1920px] overflow-clip">
+    <NavbarHomeTop />
+    <main>
+      <div id="screen-1">
+        <div id="background"></div>
+      </div>
+      <div id="screen1-hero-text"></div>
+      <div id="screen1-sub-text"></div>
+      <div id="screen2-right"></div>
+      <div id="screen2-left"></div>
+      <div id="s2-about-icon"></div>
+      <div id="screen2-about">ABOUT US</div>
+      <div id="s2-about-below">Great Digital Agency</div>
+      <div id="screen2-bot-right" class="overflow-hidden"></div>
+      <div id="screen2-subtext1">
+        Our products are fully custom-made, built with the latest technologies and
+        cloud-architectures.
+      </div>
+      <div id="screen2-subtext2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex odio, turpis accumsan
+        congue. Quisque blandit dui Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In convallis porta mauris non aliquam.
+      </div>
+      <div id="screen3-main"></div>
+      <div id="screen3-right"></div>
+      <div id="s3-logo"></div>
+      <div id="s3-heading">UI/UX Designing</div>
+      <div id="s3-subtext">
         Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam ex odio, is the turpis
         accu msan congue euisque blandit dui Pelle ntesque habitant.
       </div>
+      <div id="s3-checkmark1"></div>
+      <div id="s3-point1">Lorem ipsum dolor sit amet, conse ctetur adipi scing elit.</div>
+      <div id="s3-checkmark2"></div>
+      <div id="s3-point2">Lorem ipsum dolor sit amet,</div>
+      <div id="s3-checkmark3"></div>
+      <div id="s3-point3">conse ctetur adipi scing elit.</div>
+      <div id="s3-checkmark4"></div>
+      <div id="s3-point4">Lorem ipsum dolor sit amet, conse ctetur</div>
+      <div id="services-logo"></div>
+      <div id="s3-left-text">OUR SERVICES</div>
+      <div id="s3-left-subtext">Transforming your ideas into Reality</div>
       <div
-        id="s4-center-pill"
-        class="flex flex-row gap-3 items-center justify-between px-20 text-2xl font-semibold"
+        id="s3-left-bubble1"
+        class="font-pop flex items-center justify-center h-full"
+        style="color: #0e77ff; font: 600 20px/50px"
       >
-        <div class="relative">Design</div>
-        <div class="s4-vertical-seperator relative"></div>
-        <div class="relative">Development</div>
-        <div class="relative s4-vertical-seperator"></div>
-        <div class="relative">Marketing</div>
+        Web Development
       </div>
-      <div id="s4-icon-grid">
-        <div id="s4-icon-container1"></div>
-        <div id="s4-icon-container2"></div>
-        <div id="s4-icon-container3"></div>
-        <div id="s4-icon-container4"></div>
-        <div id="s4-icon-container5"></div>
-        <div id="s4-icon-container6"></div>
-        <div id="s4-icon-container7"></div>
-        <div id="s4-icon-container8"></div>
-        <div id="s4-icon-container9"></div>
-        <div id="s4-icon-container10"></div>
-        <div id="s4-icon-container11"></div>
-        <div id="s4-icon-container12"></div>
-        <div id="s4-icon-container13"></div>
-        <div id="s4-icon1"></div>
-        <div id="s4-icon2"></div>
-        <div id="s4-icon3"></div>
-        <div id="s4-icon4"></div>
-        <div id="s4-icon5"></div>
-        <div id="s4-icon6"></div>
-        <div id="s4-icon7"></div>
-        <div id="s4-icon8"></div>
-        <div id="s4-icon9"></div>
-        <div id="s4-icon10"></div>
-        <div id="s4-icon11"></div>
-        <div id="s4-icon12"></div>
-        <div id="s4-icon13"></div>
+      <div
+        id="s3-left-bubble2"
+        class="font-pop flex items-center justify-center h-full"
+        style="color: #0e77ff; font: 600 20px/50px"
+      >
+        Mobile Development
       </div>
-    </div>
-
-    <div id="screen5">
-      <div id="s5-top-left"></div>
-      <div id="s5-main-image"></div>
-      <div id="s5-bg-image"></div>
-      <SendUsMessage />
-    </div>
-    <footer>
-      <div id="footer-left-text">
-        Lorem Finaldream rure dolor in reprehenderit in voluptate velit esse cillum dolore e uis
-        nostrud exercitation isi ut aliquip ex ea commodo consequat.
+      <div
+        id="s3-left-bubble3"
+        class="font-pop flex items-center justify-center h-full"
+        style="color: #ffffff; font: 600 20px/50px"
+      >
+        UI/UX Designing
       </div>
-      <div id="footer-social-icon1"></div>
-      <div id="footer-social-icon2"></div>
-      <div id="footer-social-icon3"></div>
-      <div id="footer-insta"></div>
-      <div>
-        <div id="footer-services">
-          <div class="footer-services-head left-[799px]">Our Services</div>
-          <div class="footer-services-bar left-[799px]"></div>
-          <div class="footer-services-text relative left-[799px]">Web Development</div>
-          <div class="footer-services-text relative left-[799px]">Moblie Developemnt</div>
-          <div class="footer-services-text relative left-[799px]">Cloud Technologies</div>
-          <div class="footer-services-text relative left-[799px]">UI/UX Designs</div>
+      <div
+        id="s3-left-bubble4"
+        class="font-pop flex items-center justify-center h-full"
+        style="color: #0e77ff; font: 600 20px/50px"
+      >
+        Branding
+      </div>
+      <div
+        id="s3-left-bubble5"
+        class="font-pop flex items-center justify-center h-full"
+        style="color: #0e77ff; font: 600 20px/50px"
+      >
+        Cloud Technology
+      </div>
+      <div id="screen4">
+        <div id="s4-topleft"></div>
+        <div id="s4-top-text">Core Technologies</div>
+        <div id="s4-subtext">
+          Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam ex odio, is the turpis
+          accu msan congue euisque blandit dui Pelle ntesque habitant.
+        </div>
+        <div
+          id="s4-center-pill"
+          class="flex flex-row gap-3 items-center justify-between px-20 text-2xl font-semibold"
+        >
+          <div class="relative">Design</div>
+          <div class="s4-vertical-seperator relative"></div>
+          <div class="relative">Development</div>
+          <div class="relative s4-vertical-seperator"></div>
+          <div class="relative">Marketing</div>
+        </div>
+        <div id="s4-icon-grid">
+          <div id="s4-icon-container1"></div>
+          <div id="s4-icon-container2"></div>
+          <div id="s4-icon-container3"></div>
+          <div id="s4-icon-container4"></div>
+          <div id="s4-icon-container5"></div>
+          <div id="s4-icon-container6"></div>
+          <div id="s4-icon-container7"></div>
+          <div id="s4-icon-container8"></div>
+          <div id="s4-icon-container9"></div>
+          <div id="s4-icon-container10"></div>
+          <div id="s4-icon-container11"></div>
+          <div id="s4-icon-container12"></div>
+          <div id="s4-icon-container13"></div>
+          <div id="s4-icon1"></div>
+          <div id="s4-icon2"></div>
+          <div id="s4-icon3"></div>
+          <div id="s4-icon4"></div>
+          <div id="s4-icon5"></div>
+          <div id="s4-icon6"></div>
+          <div id="s4-icon7"></div>
+          <div id="s4-icon8"></div>
+          <div id="s4-icon9"></div>
+          <div id="s4-icon10"></div>
+          <div id="s4-icon11"></div>
+          <div id="s4-icon12"></div>
+          <div id="s4-icon13"></div>
         </div>
       </div>
-      <div>
-        <div id="footer-services">
-          <div class="footer-services-head left-[1079px]">Our Links</div>
-          <div class="footer-services-bar left-[1079px]"></div>
-          <div class="footer-services-text relative left-[1079px]">Terms & Condition</div>
-          <div class="footer-services-text relative left-[1079px]">Privacy Policy</div>
-          <div class="footer-services-text relative left-[1079px]">Imprint</div>
-          <div class="footer-services-text relative left-[1079px]">Legal</div>
-        </div>
+      <div id="screen5">
+        <div id="s5-top-left"></div>
+        <div id="s5-main-image"></div>
+        <div id="s5-bg-image"></div>
+        <SendUsMessage />
       </div>
-      <div>
-        <div id="footer-services">
-          <div class="footer-services-head left-[1387px]">Contact Us</div>
-          <div class="footer-services-bar left-[1387px]"></div>
-          <div class="footer-services-text relative left-[1386px]">
-            Al. Dummyodl 124/23 floor 123 Banswara Street, 02-577 India.
+      <footer>
+        <div id="footer-left-text">
+          Lorem Finaldream rure dolor in reprehenderit in voluptate velit esse cillum dolore e uis
+          nostrud exercitation isi ut aliquip ex ea commodo consequat.
+        </div>
+        <div id="footer-social-icon1"></div>
+        <div id="footer-social-icon2"></div>
+        <div id="footer-social-icon3"></div>
+        <div id="footer-insta"></div>
+        <div>
+          <div id="footer-services">
+            <div class="footer-services-head left-[799px]">Our Services</div>
+            <div class="footer-services-bar left-[799px]"></div>
+            <div class="footer-services-text relative left-[799px]">Web Development</div>
+            <div class="footer-services-text relative left-[799px]">Moblie Developemnt</div>
+            <div class="footer-services-text relative left-[799px]">Cloud Technologies</div>
+            <div class="footer-services-text relative left-[799px]">UI/UX Designs</div>
           </div>
-          <div class="footer-services-text relative left-[1386px]">00 1800 245 453</div>
-          <div class="footer-services-text relative left-[1386px]">hello@inkyy.com</div>
         </div>
-      </div>
-    </footer>
-  </main>
+        <div>
+          <div id="footer-services">
+            <div class="footer-services-head left-[1079px]">Our Links</div>
+            <div class="footer-services-bar left-[1079px]"></div>
+            <div class="footer-services-text relative left-[1079px]">Terms & Condition</div>
+            <div class="footer-services-text relative left-[1079px]">Privacy Policy</div>
+            <div class="footer-services-text relative left-[1079px]">Imprint</div>
+            <div class="footer-services-text relative left-[1079px]">Legal</div>
+          </div>
+        </div>
+        <div>
+          <div id="footer-services">
+            <div class="footer-services-head left-[1387px]">Contact Us</div>
+            <div class="footer-services-bar left-[1387px]"></div>
+            <div class="footer-services-text relative left-[1386px]">
+              Al. Dummyodl 124/23 floor 123 Banswara Street, 02-577 India.
+            </div>
+            <div class="footer-services-text relative left-[1386px]">00 1800 245 453</div>
+            <div class="footer-services-text relative left-[1386px]">hello@inkyy.com</div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
 </template>
 
 <style scoped>
@@ -223,7 +223,7 @@ import ButtonHome from '../components/ButtonHome.vue'
   opacity: 1;
 }
 #footer-social-icon2 {
-  top: 6276 px;
+  top: 6276px;
   left: 188px;
   width: 37px;
   height: 37px;
@@ -240,7 +240,6 @@ import ButtonHome from '../components/ButtonHome.vue'
     padding-box;
   opacity: 1;
 }
-
 #footer-insta {
   top: 6285px;
   left: 247px;
