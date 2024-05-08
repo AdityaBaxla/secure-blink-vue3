@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="justify-between h-screen flex flex-col min-w-[100px] max-w-[210px] w-auto font-pop text-base text-[#8990AD]"
+    class="justify-between h-screen flex flex-col min-w-[150px] max-w-[210px] w-auto font-pop text-base text-[#8990AD]"
     style="background-color: #ffffff; box-shadow: 0px 3px 26px #00000017"
   >
     <div id="nav-icon-container" class="flex flex-col gap-14 w-auto items-center mt-20">

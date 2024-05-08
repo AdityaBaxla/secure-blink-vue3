@@ -1,7 +1,7 @@
 <template>
   <div
     id="contrie-container"
-    class="max-w-[718px] h-auto flex flex-col p-5 bg-white"
+    class="max-w-[718px] h-[355px] flex flex-col p-5 bg-white"
     style="box-shadow: 0px 3px 26px #00000017"
   >
     <div class="grid grid-rows-3 h-full pt-3">

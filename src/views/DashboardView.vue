@@ -7,8 +7,11 @@ import DashboardCountries from '@/components/DashboardCountries.vue'
 
 <template>
   <div id="dashboard-full-page" class="w-screen grid grid-cols-10 relative bg-[#FCFCFC]">
-    <NavbarDashboardLeft class="col-span-1" />
-    <div id="dashboard-main-content" class="flex flex-col col-span-9 pl-20 pt-20 mr-10">
+    <NavbarDashboardLeft class="col-span-3 xl:col-span-1 lg:col-span-1 sm:col-span-2" />
+    <div
+      id="dashboard-main-content"
+      class="flex flex-col col-span-7 xl:col-span-9 lg:col-span-9 sm:col-span-8 pl-20 pt-20 mr-10"
+    >
       <div id="dashboard-top" class="flex flex-row justify-between">
         <div>
           <div class="text-5xl font-inter text-slate-900">Dashboard</div>
@@ -16,7 +19,7 @@ import DashboardCountries from '@/components/DashboardCountries.vue'
         </div>
         <div>
           <button>+ Add Unit</button>
-          <img src="" alt="" />
+          <img src="../assets/img/profile1" alt="" />
           <div>Andrew Jhonstons</div>
         </div>
       </div>
@@ -40,17 +43,20 @@ import DashboardCountries from '@/components/DashboardCountries.vue'
       </div>
 
       <!-- <div class="overflow-x-auto"> -->
-      <div id="dashboard-bottom" class="flex flex-row flex-wrap gap-10 mt-10">
-        <div id="team-member" class="max-w-[718px] flex-grow">
+      <div
+        id="dashboard-bottom"
+        class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-10 mt-10"
+      >
+        <div id="team-member" class="max-w-[718px]">
           <div id="team-header" class="text-4xl font-inter text-slate-700 mb-5">Team Members</div>
-          <div id="members" class="flex flex-col gap-4">
+          <div id="members" class="gap-4 flex flex-col">
             <TeamMembers name="Aditya Baxla" post="Top Trader" />
             <TeamMembers name="Jhon Doe" post="Top Trader" />
             <TeamMembers name="Jerry" post="Manager" />
             <TeamMembers name="Andrew" post="Top Trader" />
           </div>
         </div>
-        <div class="flex flex-wrap flex-col w-1/2">
+        <div class="">
           <div class="text-4xl font-inter text-slate-700 mb-5">Countries</div>
           <DashboardCountries w-full />
         </div>
