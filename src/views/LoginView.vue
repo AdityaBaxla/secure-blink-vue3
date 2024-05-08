@@ -5,6 +5,7 @@ import NavbarHomeTop from '../components/NavbarHomeTop.vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useMyStore } from '../stores/myStore'
 import ButtonHome from '../components/ButtonHome.vue'
+import { setTextRange } from 'typescript'
 </script>
 
 <template>
@@ -73,17 +74,11 @@ export default defineComponent({
       if (this.isValidEmail && this.isValidPassword) {
         console.log('login hit')
 
-        fetch(endpoint, {
-          method: 'POST',
-          body: JSON.stringify({ email: this.email, password: this.password })
-        })
-          .then(() => {
-            useMyStore().setLogin(true)
-            this.router.push('/dashboard')
-          })
-          .catch(() => {
-            alert('error login')
-          })
+        setTimeout(() => {
+          useMyStore().setLogin(true)
+          this.router.push('/dashboard')
+        }, 987)
+
         this.loggingIn = true
         const myStore = useMyStore()
         console.log(myStore.isLoggedIn)
