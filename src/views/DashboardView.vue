@@ -3,6 +3,7 @@ import NavbarDashboardLeft from '@/components/NavbarDashboardLeft.vue'
 import CountriesGraph from '@/components/CountriesGraph.vue'
 import TeamMembers from '@/components/TeamMembers.vue'
 import DashboardCountries from '@/components/DashboardCountries.vue'
+import DashboardBalance from '@/components/DashboardBalance.vue'
 </script>
 
 <template>
@@ -24,15 +25,15 @@ import DashboardCountries from '@/components/DashboardCountries.vue'
         </div>
       </div>
       <div id="dashboard-balances " class="flex flex-row justify-evenly flex-wrap">
-        <div class="w-[154px] h-[88px] flex flex-col justify-between">
-          <div class="text-slate-400 font-inter text-[19px] tracking-wide">BALANCE</div>
-          <div class="font-inter font-normal text-[37px]">$5900</div>
-        </div>
+        <DashboardBalance />
         <div class="border-[1px] w-0 border-solid border-slate-200 h-[91px]"></div>
+        <DashboardBalance />
+        <div class="border-[1px] w-0 border-solid border-slate-200 h-[91px]"></div>
+        <DashboardBalance />
       </div>
       <div
         id="dashboard-prices"
-        class="flex flex-row flex-wrap h-[226px] bg-white"
+        class="flex flex-row flex-wrap justify-between min-h-[226px] bg-white"
         style="background-color: #ffffff; box-shadow: 0px 3px 26px #00000017"
       >
         <CountriesGraph />
@@ -76,7 +77,9 @@ export default defineComponent({
     }
   },
   components: {
-    TeamMembers
+    TeamMembers,
+    DashboardBalance,
+    DashboardCountries
   }
 })
 </script>

@@ -1,7 +1,7 @@
 <template>
-  <div class="container justify-center items-center">
-    <div>Italy</div>
-    <div>475</div>
+  <div class="container grid place-items-center h-[124px] w-[161px] m-12">
+    <div class="text-base text-slate-700">Italy</div>
+    <div class="text-3xl font-bold font-inter text-slate-900">475</div>
     <div id="cont-graph"></div>
   </div>
 </template>
