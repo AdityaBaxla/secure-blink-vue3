@@ -383,11 +383,11 @@ import ButtonHome from '../components/ButtonHome.vue'
 
 #s4-icon7 {
   top: 4458px;
-  left: 1302px;
+  left: 1498px;
   width: 74px;
   height: 74px;
   /* UI Properties */
-  background: transparent url('../assets/img/g10.svg') 0% 0% no-repeat padding-box;
+  background: transparent url('../assets/img/Path 37520.svg') 0% 0% no-repeat padding-box;
   opacity: 1;
   color: #0e77ff;
 }
