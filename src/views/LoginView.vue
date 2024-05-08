@@ -9,7 +9,6 @@ import { setTextRange } from 'typescript'
 </script>
 
 <template>
-  <NavbarHomeTop />
   <div id="backgound">
     <div id="background-image"></div>
     <div id="login-container" class="grid grid-cols-1 gap-4">

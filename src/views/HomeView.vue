@@ -712,7 +712,7 @@ import ButtonHome from '../components/ButtonHome.vue'
 #s3-left-text {
   top: 2924px;
   left: 325px;
-  width: 176px;
+  width: 180px;
   height: 35px;
   /* UI Properties */
   text-align: left;
