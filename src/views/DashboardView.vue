@@ -41,11 +41,12 @@ import DashboardBalance from '@/components/DashboardBalance.vue'
         class="flex flex-row flex-wrap justify-between min-h-[226px] bg-white"
         style="background-color: #ffffff; box-shadow: 0px 3px 26px #00000017"
       >
-        <CountriesGraph />
-        <CountriesGraph />
-        <CountriesGraph />
-        <CountriesGraph />
-        <CountriesGraph />
+        <CountriesGraph country="Italy" amount="475" arrow="up" />
+        <CountriesGraph country="United States" amount="431" arrow="down" />
+        <CountriesGraph country="Canada" amount="175" arrow="up" />
+        <CountriesGraph country="Span" amount="475" arrow="down" />
+        <CountriesGraph country="Japan" amount="134" arrow="up" />
+        <CountriesGraph country="South Africa" amount="471" arrow="up" />
       </div>
 
       <!-- <div class="overflow-x-auto"> -->
