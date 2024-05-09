@@ -4,6 +4,7 @@ import CountriesGraph from '@/components/CountriesGraph.vue'
 import TeamMembers from '@/components/TeamMembers.vue'
 import DashboardCountries from '@/components/DashboardCountries.vue'
 import DashboardBalance from '@/components/DashboardBalance.vue'
+import DashboardCurrency from '@/components/DashboardCurrency.vue'
 </script>
 
 <template>
@@ -30,11 +31,13 @@ import DashboardBalance from '@/components/DashboardBalance.vue'
         </div>
       </div>
       <div id="dashboard-balances " class="flex flex-row justify-evenly flex-wrap">
-        <DashboardBalance />
+        <DashboardBalance heading="BALANCE" amt="5900.00" />
         <div class="border-[1px] w-0 border-solid border-slate-200 h-[91px]"></div>
-        <DashboardBalance />
+        <DashboardBalance heading="PROFIT" amt="950.00" />
         <div class="border-[1px] w-0 border-solid border-slate-200 h-[91px]"></div>
-        <DashboardBalance />
+        <DashboardBalance heading="LOSS" amt="450.00" />
+        <div class="border-[1px] w-0 border-solid border-slate-200 h-[91px]"></div>
+        <DashboardCurrency />
       </div>
       <div
         id="dashboard-prices"
